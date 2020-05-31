@@ -5,6 +5,7 @@ project(jishmo)
 
 # add the executable
 add_executable(jishmo jishmo.c)
-target_link_libraries(jishmo avutil avformat)
+target_link_libraries(jishmo avutil avformat avcodec)
+
  
 
